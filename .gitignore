@@ -9,6 +9,13 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/csv2lines_UnityProject/[Ll]ibrary/
+/csv2lines_UnityProject/[Tt]emp/
+/csv2lines_UnityProject/[Oo]bj/
+/csv2lines_UnityProject/[Bb]uild/
+/csv2lines_UnityProject/[Bb]uilds/
+/csv2lines_UnityProject/[Ll]ogs/
+/csv2lines_UnityProject/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
