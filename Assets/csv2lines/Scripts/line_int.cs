@@ -7,6 +7,7 @@ public class line_int : MonoBehaviour
     public void Run(int[] intArray, float spacing)
     {
         int littleCount = intArray.Count();
+        transform.position = transform.parent.position;
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.positionCount = littleCount;
         int bottom = intArray.Min();

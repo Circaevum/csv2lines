@@ -7,6 +7,7 @@ public class line_double : MonoBehaviour
     public void Run(double[] doubleArray, float spacing)
     {
         int littleCount = doubleArray.Count();
+        transform.position = transform.parent.position;
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.positionCount = littleCount;
         double bottom = doubleArray.Min();

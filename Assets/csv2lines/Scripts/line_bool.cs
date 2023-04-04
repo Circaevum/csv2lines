@@ -7,6 +7,7 @@ public class line_bool : MonoBehaviour
     public void Run(bool[] boolStates,float spacing)
     {
         int littleCount = boolStates.Count();
+        transform.position = transform.parent.position;
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.positionCount = littleCount;
         for (int i = 0; i < littleCount; i++)
